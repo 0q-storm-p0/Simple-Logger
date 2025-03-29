@@ -52,6 +52,7 @@ logger.log("Variable value: 42", level="DEBUG")
 
 Logs are automatically organized by date:
 
+```
 logs/
 ├── Logs/
 │   ├── 23/          # Year
@@ -59,6 +60,7 @@ logs/
 │   │   │   ├── 25/  # Day
 │   │   │   │   ├── 14h.txt
 │   │   │   │   └── 14h_backup.txt  # Rotated file
+```
 
 ## Requirements 📦
 
