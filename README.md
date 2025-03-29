@@ -1,4 +1,3 @@
-````markdown
 # Logger Module 📝
 
 A lightweight, thread-safe logging utility with file rotation and colored console output.
@@ -35,7 +34,6 @@ logger.log("Low disk space", level="WARNING")
 logger.log("Connection failed", level="ERROR")
 logger.log("Variable value: 42", level="DEBUG")
 ```
-````
 
 ## Configuration Options ⚙️
 
@@ -54,7 +52,6 @@ logger.log("Variable value: 42", level="DEBUG")
 
 Logs are automatically organized by date:
 
-```
 logs/
 ├── Logs/
 │   ├── 23/          # Year
@@ -62,7 +59,6 @@ logs/
 │   │   │   ├── 25/  # Day
 │   │   │   │   ├── 14h.txt
 │   │   │   │   └── 14h_backup.txt  # Rotated file
-```
 
 ## Requirements 📦
 
