@@ -1,6 +1,7 @@
 # Ignore Python cache and virtualenv
 __pycache__/
 venv/
+logs/
 
 # Ignore IDE files
 .vscode/
